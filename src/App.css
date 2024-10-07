@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
+    font-size: x-large;
    
     
 }
@@ -19,6 +19,7 @@ body:hover {
 main {
     display: flex;
     background-color: rgba(187, 183, 183, 0.582);
+  
     
 }
 
@@ -32,9 +33,16 @@ main {
     height: 80vh;
     
 }
-
+.texto {
+    margin-top: 150px;
+    font-size: x-large;
+}
 .text {
     width: 40%;
+    
+    
+  
+   
 
 }
 

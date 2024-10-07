@@ -3,14 +3,14 @@
 const Home = () => {
   return (
     <main className="d-flex h-custom">
-        <section className="text d-flex justify-content-center align-items-center">
-            <h1 className="m-auto"></h1>
+        <section className="text d-flex justify-content-center">
+        
         </section>
         <figure className="container-img d-flex justify-content-center">
             <img className="banner" src="https://img.freepik.com/foto-gratis/concepto-collage-html-css-persona_23-2150061986.jpg" alt="logo" />
         </figure>
-        
-      <section>
+
+      <section className="texto">
         <h2> Bruno Figueroa</h2>
         <p className="txt">
         Buenas, mi nombre es Bruno Figueroa, tengo 34 años y resido en Argentina. 
@@ -20,7 +20,8 @@ const Home = () => {
         nuevas herramientas y tecnológicas actuales.
         </p>
       </section>
-   
+
+
     </main>
   )
 }
