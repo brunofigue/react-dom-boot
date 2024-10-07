@@ -1,21 +1,55 @@
-.h-custom {
-    height: 80vh;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
 }
-.text {
-    width: 50%;
+body {
+
+  transition: transform 0.3s ease;
 }
 
-.text-size-custom {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    /* text-decoration: underline; */
-    text-transform:uppercase;
-    text-shadow: 2px 3px 2x rgba(173, 151, 151, 0.575);
+body:hover {
+  transform: scale(1.05); /* Hace zoom cuando pasas el ratón */
 }
+
+main {
+    background-color: rgba(187, 183, 183, 0.582);
+    
+}
+
+.navbar {
+    background-color: #cac7c7;
+    padding: 30px;
+    font-size: large;
+    
+}
+.h-custom {
+    height: 80vh;
+    
+}
+
+.text {
+    width: 50%;
+    position: relative;
+    padding: 0%;
+    
+}
+
 .container-img{
     width: 50%;
 }
 .banner {
-    width: 50%;
+    margin-top: 50px;
+    width: 400px; 
+    height: 400px; /*  el alto y el ancho sean iguales para crear un círculo perfecto */
+    border-radius: 50%; /* Esto crea el efecto circular */
+    object-fit: cover;
+    left: 40%;
+    transform: translateX(-40%);
+    filter: drop-shadow(20px 18px 18px  #12084d56);
+
+  
+    
 }
