@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
+   
+    
 }
 body {
 
@@ -15,6 +17,7 @@ body:hover {
 }
 
 main {
+    display: flex;
     background-color: rgba(187, 183, 183, 0.582);
     
 }
@@ -31,10 +34,8 @@ main {
 }
 
 .text {
-    width: 50%;
-    position: relative;
-    padding: 0%;
-    
+    width: 40%;
+
 }
 
 .container-img{
@@ -51,8 +52,10 @@ main {
     filter: drop-shadow(20px 18px 18px  #12084d56);
 }
 .banner:hover {
-    filter: drop-shadow(20px 18px 18px  #291c77);
+    filter: drop-shadow(20px 18px 18px  #403b58);
     cursor: pointer;
 
-    transition: filter 0.3s ease;
+
+    
+
 }
