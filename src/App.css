@@ -4,52 +4,37 @@
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: x-large;
-   
-    
 }
 body {
-
   transition: transform 0.3s ease;
 }
-
 body:hover {
   transform: scale(1.01); /* Hace zoom cuando pasas el ratón */
 }
-
 main {
     display: flex;
     background-color: rgba(187, 183, 183, 0.582);
-  
-    
 }
-
 .navbar {
     background-color: #cac7c7;
     padding: 30px;
-    font-size: large;
-    
+    font-size: large;  
 }
 .h-custom {
     height: 80vh;
-    
 }
 .texto {
     margin-top: 150px;
     font-size: x-large;
 }
 .text {
-    width: 40%;
-    
-    
-  
-   
-
+    width: 40%; 
 }
-
 .container-img{
     width: 50%;
+    padding: 30px;
 }
-.banner {
+.banner { 
     margin-top: 50px;
     width: 400px; 
     height: 400px; /*  el alto y el ancho sean iguales para crear un círculo perfecto */
@@ -62,8 +47,4 @@ main {
 .banner:hover {
     filter: drop-shadow(20px 18px 18px  #403b58);
     cursor: pointer;
-
-
-    
-
 }
