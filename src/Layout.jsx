@@ -1,14 +1,15 @@
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-const Layout = ({children}) => {
+// eslint-disable-next-line react/prop-types
+const Layout = ({ children }) => {
   return (
     <>
-        <Header />
-        {children}
-        <Footer />
+      <Header />
+      {children}
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

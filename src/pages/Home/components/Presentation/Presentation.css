@@ -1,0 +1,20 @@
+.presentationContainer {
+  background-color: rgba(187, 183, 183, 0.582);
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  gap: 50px;
+}
+
+.presentationImage {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: drop-shadow(20px 18px 18px #12084d56);
+  cursor: pointer;
+}
+
+.presentationImage:hover {
+  filter: drop-shadow(20px 18px 18px #403b58);
+}
