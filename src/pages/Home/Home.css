@@ -1,0 +1,11 @@
+.HomeContainer {
+  min-height: calc(100vh - 100px);
+}
+main {
+  background-color: #cac7c7;
+}
+
+h4 {
+  padding: 50px;
+  text-align: center;
+}

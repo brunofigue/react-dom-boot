@@ -1,0 +1,9 @@
+.projectContainer {
+  display: flex;
+  background-color: #cac7c7;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 100px 40px;
+}
+
