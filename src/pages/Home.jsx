@@ -1,8 +1,11 @@
+import  {  Fade  }  from  "react-awesome-reveal" ;
+
 
 const Home = () => {
   return (
-    <main className="d-flex h-custom">
-        <section className="text d-flex justify-content-center">
+    <Fade cascade>
+    <main className="h-custom">
+        <section className="text">
         </section>
         <figure className="container-img d-flex justify-content-center">
             <img className="banner" src="https://img.freepik.com/foto-gratis/concepto-collage-html-css-persona_23-2150061986.jpg" alt="logo" />
@@ -18,6 +21,8 @@ const Home = () => {
         </p>
       </section>
     </main>
+    </Fade>
+   
   )
 }
 
