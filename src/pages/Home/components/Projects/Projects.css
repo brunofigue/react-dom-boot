@@ -1,15 +1,8 @@
 .projectContainer {
   display: flex;
-<<<<<<< HEAD
   background-color: #cac7c7;
-=======
->>>>>>> 95da25da96d5aa0bbebdc509f1f4803ad2c8ea32
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
   padding: 100px 40px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 95da25da96d5aa0bbebdc509f1f4803ad2c8ea32
